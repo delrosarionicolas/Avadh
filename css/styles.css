@@ -1,0 +1,275 @@
+:root {
+    /* Colors */
+    --blue: #0d1230;
+    --brown-background: #f7f2ee;
+    --brown: #ac8d68;
+    --white: #ffffff;
+    --gray: #66717A;
+    /* Font Family */
+    --dm-sans: 'DM Sans', sans-serif;
+    --vidaloka: 'Vidaloka', serif;
+    /* Font Size */
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px
+}
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+html {
+    font-family: var(--dm-sans);
+    scroll-behavior: smooth;
+}
+
+figure {
+    margin: 0;
+}
+
+/* header */
+.icons {
+    opacity: 0.45;
+    transition: all .5s ease-in-out;
+}
+
+.icons:hover {
+    color: var(--brown);
+}
+
+#header-s1 .col-lg-3 p {
+    margin-bottom: 0%;
+    line-height: 40px;
+}
+
+#header-s1 .col-lg-2 {
+    text-align: center;
+}
+
+#header-s1 .col-lg-2 a {
+    line-height: 40px;
+    margin-bottom: 0%;
+    margin-right: 8px;
+}
+
+#nav-bar .align-items-center:first-child {
+    width: 100%;
+}
+
+#nav-bar #menu-main li a {
+    padding: 0 15px;
+    font-family: var(--vidaloka);
+}
+
+#nav-bar .header-right {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+#nav-bar .header-right .header-search a {
+    background-color: var(--brown);
+    color: var(--white);
+    display: inline-block;
+    height: 48px;
+    line-height: 48px;
+    width: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+
+#carouselExampleControls h2 {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 90px;
+    margin: 10px 0 15px;
+    max-width: 640px;
+    text-align: initial;
+}
+
+#carouselExampleControls p {
+    font-size: 22px;
+    line-height: 35px;
+    max-width: 680px;
+    margin-bottom: 40px;
+    color: #e2e2e2;
+    text-align: initial;
+}
+
+#carouselExampleControls div{
+    text-align: initial;
+    margin-bottom: 100px;
+}
+
+
+/* header complete */
+
+/* main */
+#mission-and-vission .col-lg-5 {
+    padding: 74px 72px;
+    margin-top: 20px;
+}
+
+#mission-and-vission .col-lg-5 ul {
+    padding-left: 0;
+}
+
+#mission-and-vission .col-lg-5 ul li {
+    padding: 10px 0;
+}
+
+#mission-and-vission .col-lg-5 a {
+    background: rgba(172, 141, 104, 0.2);
+    border-radius: 50%;
+    color: var(--brown);
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 25px;
+    margin-right: 10px;
+}
+
+#our-talent-member {
+    text-align: center;
+}
+
+#our-talent-member figcaption h3 {
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 3px;
+    transition: all 0.4s ease-in-out;
+}
+
+#our-talent-member figcaption h3:hover {
+    color: var(--blue);
+}
+
+#our-talent-member figcaption p {
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+
+#our-employees {
+    text-align: center;
+}
+
+#about-us {
+    text-align: center;
+}
+
+#about-us .col-lg-6 {
+    margin: 50px 0;
+}
+
+/* main complete */
+
+.blue-background {
+    background-color: var(--blue);
+}
+
+.brown-background {
+    background-color: var(--brown-background);
+}
+
+.brown-text-background {
+    background-color: var(--brown);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.brown {
+    color: var(--brown);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.white {
+    color: var(--white);
+}
+
+/* ------- */
+
+.vidaloka {
+    font-family: var(--vidaloka);
+}
+
+/* ------- */
+
+.sm {
+    font-size: var(--sm);
+}
+
+.md {
+    font-size: var(--md);
+}
+
+.lg {
+    font-size: var(--lg);
+}
+
+/* ------- */
+
+.padding {
+    padding: 80px 0;
+}
+
+.row {
+    padding: 12px;
+}
+
+.theme-btn {
+    padding: 15px 30px;
+    color: var(--white);
+    text-decoration: none;
+    background-color: var(--brown);
+    transition: all .4s ease-in-out;
+    font-weight: 700;
+}
+
+.theme-btn:hover {
+    color: var(--brown);
+    background-color: var(--blue);
+}
+
+.title {
+    font-size: var(--sm);
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.2em;
+}
+
+.subtitle {
+    font-family: var(--vidaloka);
+    font-size: 46px;
+    margin: 20px 0 30px 0;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-toggler {
+    margin: 15px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+  }
